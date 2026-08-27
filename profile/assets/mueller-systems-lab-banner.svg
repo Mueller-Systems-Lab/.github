@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 682" role="img" aria-labelledby="title desc">
+  <title id="title">Mueller-Systems-Lab banner</title>
+  <desc id="desc">A calm deep-tech banner with the Mueller-Systems-Lab monogram, signal paths and measurement arcs.</desc>
+  <defs>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0V64" fill="none" stroke="#17304B" stroke-width="1"/>
+      <circle cx="0" cy="0" r="2" fill="#21425F"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" x2="1">
+      <stop offset="0" stop-color="#071426" stop-opacity="0"/>
+      <stop offset="0.52" stop-color="#071426" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#071426" stop-opacity="0.8"/>
+    </linearGradient>
+  </defs>
+  <rect width="2048" height="682" fill="#071426"/>
+  <rect width="2048" height="682" fill="url(#grid)" opacity="0.58"/>
+  <rect width="2048" height="682" fill="url(#fade)"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M0 548H250l48-76 50 148 56-246 58 280 52-124h300" stroke="#20B8F2" stroke-width="7" opacity="0.8"/>
+    <path d="M1220 694A530 530 0 0 1 1880 34M1336 694A430 430 0 0 1 1870 160" stroke="#8B9AAF" stroke-width="3" opacity="0.4"/>
+    <path d="M1350 40h410M1460 94h300M1540 148h220" stroke="#5ED6FF" stroke-width="2" opacity="0.28"/>
+  </g>
+  <g transform="translate(150 155)" fill="none" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M72 286V72l150 126L372 72v214" stroke="#E5EAF0" stroke-width="34"/>
+    <path d="M352 153H207c-37 0-62 27-62 62s25 62 62 62h78c37 0 62 27 62 62s-25 62-62 62H143" stroke="#9AA8B8" stroke-width="34"/>
+    <path d="M18 250h72l22-34 24 68 28-112 29 158 25-80h112" stroke="#5ED6FF" stroke-width="11"/>
+    <circle cx="18" cy="250" r="11" fill="#5ED6FF" stroke="none"/>
+    <circle cx="330" cy="250" r="11" fill="#5ED6FF" stroke="none"/>
+    <path d="M84 134A215 215 0 0 1 430 132M76 366A215 215 0 0 0 430 366" stroke="#20B8F2" stroke-width="8"/>
+    <path d="M260 414v25m-43 0h86m-63 18h40" stroke="#5ED6FF" stroke-width="8"/>
+  </g>
+  <text x="700" y="330" fill="#F4F7FA" font-family="Inter,IBM Plex Sans,Arial,sans-serif" font-size="84" font-weight="650" letter-spacing="-1.8">Mueller-Systems-Lab</text>
+  <rect x="704" y="382" width="300" height="5" rx="2.5" fill="#20B8F2"/>
+  <text x="704" y="438" fill="#9AA8B8" font-family="IBM Plex Mono,ui-monospace,monospace" font-size="19" letter-spacing="3.4">SYSTEMS  /  ENGINEERING  /  RESEARCH</text>
+</svg>
