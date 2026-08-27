@@ -16,7 +16,7 @@
   <rect width="2048" height="682" fill="url(#grid)" opacity="0.58"/>
   <rect width="2048" height="682" fill="url(#fade)"/>
   <g fill="none" stroke-linecap="round">
-    <path d="M0 548H250l48-76 50 148 56-246 58 316 52-160h300" stroke="#20B8F2" stroke-width="7" opacity="0.8"/>
+    <path d="M0 548H250l48-76 50 148 56-246 58 280 52-124h300" stroke="#20B8F2" stroke-width="7" opacity="0.8"/>
     <path d="M1220 694A530 530 0 0 1 1880 34M1336 694A430 430 0 0 1 1870 160" stroke="#8B9AAF" stroke-width="3" opacity="0.4"/>
     <path d="M1350 40h410M1460 94h300M1540 148h220" stroke="#5ED6FF" stroke-width="2" opacity="0.28"/>
   </g>
