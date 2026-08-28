@@ -1,35 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 682" role="img" aria-labelledby="title desc">
-  <title id="title">Mueller-Systems-Lab banner</title>
-  <desc id="desc">A calm deep-tech banner with the Mueller-Systems-Lab monogram, signal paths and measurement arcs.</desc>
+  <title id="title">Mueller Systems Lab</title>
+  <desc id="desc">Banner reconstructed from the supplied Mueller Systems Lab reference image: silver M/S mark, cyan signal ring, terminals and wordmark on deep navy.</desc>
   <defs>
-    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
-      <path d="M64 0H0V64" fill="none" stroke="#17304B" stroke-width="1"/>
-      <circle cx="0" cy="0" r="2" fill="#21425F"/>
-    </pattern>
-    <linearGradient id="fade" x1="0" x2="1">
-      <stop offset="0" stop-color="#071426" stop-opacity="0"/>
-      <stop offset="0.52" stop-color="#071426" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#071426" stop-opacity="0.8"/>
-    </linearGradient>
+    <radialGradient id="bg" cx="22%" cy="48%" r="94%"><stop offset="0" stop-color="#071a31"/><stop offset="0.62" stop-color="#031326"/><stop offset="1" stop-color="#020d1c"/></radialGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="0.28" stop-color="#edf0f3"/><stop offset="0.55" stop-color="#cbd1d8"/><stop offset="0.8" stop-color="#a9b1bb"/><stop offset="1" stop-color="#e5e9ed"/></linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#62ddff"/><stop offset="0.55" stop-color="#20b9f0"/><stop offset="1" stop-color="#197ec0"/></linearGradient>
   </defs>
-  <rect width="2048" height="682" fill="#071426"/>
-  <rect width="2048" height="682" fill="url(#grid)" opacity="0.58"/>
-  <rect width="2048" height="682" fill="url(#fade)"/>
-  <g fill="none" stroke-linecap="round">
-    <path d="M0 548H250l48-76 50 148 56-246 58 316 52-160h300" stroke="#20B8F2" stroke-width="7" opacity="0.8"/>
-    <path d="M1220 694A530 530 0 0 1 1880 34M1336 694A430 430 0 0 1 1870 160" stroke="#8B9AAF" stroke-width="3" opacity="0.4"/>
-    <path d="M1350 40h410M1460 94h300M1540 148h220" stroke="#5ED6FF" stroke-width="2" opacity="0.28"/>
+  <rect width="2048" height="682" fill="url(#bg)"/>
+  <g transform="translate(98 20) scale(.63)">
+    <g fill="none" stroke="url(#cyan)" stroke-width="13"><path d="M357 178 A335 335 0 0 1 668 178"/><path d="M276 270 A335 335 0 0 0 273 467"/><path d="M279 513 A335 335 0 0 0 445 699"/><path d="M579 699 A335 335 0 0 0 745 513"/><path d="M751 467 A335 335 0 0 0 748 270"/></g>
+    <path d="M323 236 L323 466 L370 466 L370 329 L512 455 L654 329 L654 515 L706 515 L706 236 L512 405 Z" fill="url(#silver)" stroke="#f7f8fa" stroke-width="2.2"/>
+    <path d="M630 481 H454 C411 481 388 511 388 545 C388 581 415 607 454 607 H576 C608 607 630 629 630 658 C630 689 606 709 573 709 H402" fill="none" stroke="url(#silver)" stroke-width="54" stroke-linejoin="round"/>
+    <g fill="none" stroke="url(#cyan)" stroke-width="11"><circle cx="180" cy="493" r="18"/><path d="M198 493 H322 L337 467 L351 526 L368 450 L384 551 L402 400 L422 510 L438 474"/><path d="M630 518 H827"/><circle cx="846" cy="518" r="18"/></g>
+    <g fill="none" stroke="url(#cyan)" stroke-width="10"><path d="M512 709 V778"/><path d="M472 778 H552"/><path d="M484 801 H540"/><path d="M496 823 H528"/></g>
   </g>
-  <g transform="translate(150 155)" fill="none" stroke-linecap="square" stroke-linejoin="miter">
-    <path d="M72 286V72l150 126L372 72v214" stroke="#E5EAF0" stroke-width="34"/>
-    <path d="M352 153H207c-37 0-62 27-62 62s25 62 62 62h78c37 0 62 27 62 62s-25 62-62 62H143" stroke="#9AA8B8" stroke-width="34"/>
-    <path d="M18 250h72l22-34 24 68 28-112 29 158 25-80h112" stroke="#5ED6FF" stroke-width="11"/>
-    <circle cx="18" cy="250" r="11" fill="#5ED6FF" stroke="none"/>
-    <circle cx="330" cy="250" r="11" fill="#5ED6FF" stroke="none"/>
-    <path d="M84 134A215 215 0 0 1 430 132M76 366A215 215 0 0 0 430 366" stroke="#20B8F2" stroke-width="8"/>
-    <path d="M260 414v25m-43 0h86m-63 18h40" stroke="#5ED6FF" stroke-width="8"/>
-  </g>
-  <text x="700" y="330" fill="#F4F7FA" font-family="Inter,IBM Plex Sans,Arial,sans-serif" font-size="84" font-weight="650" letter-spacing="-1.8">Mueller-Systems-Lab</text>
-  <rect x="704" y="382" width="300" height="5" rx="2.5" fill="#20B8F2"/>
-  <text x="704" y="438" fill="#9AA8B8" font-family="IBM Plex Mono,ui-monospace,monospace" font-size="19" letter-spacing="3.4">SYSTEMS  /  ENGINEERING  /  RESEARCH</text>
+  <g transform="translate(790 205)"><text x="0" y="0" fill="url(#silver)" font-family="Montserrat,Inter,Arial,sans-serif" font-size="112" font-weight="500" letter-spacing="21">MUELLER</text><line x1="4" y1="78" x2="120" y2="78" stroke="url(#cyan)" stroke-width="5"/><text x="151" y="91" fill="url(#cyan)" font-family="Montserrat,Inter,Arial,sans-serif" font-size="48" font-weight="500" letter-spacing="18">SYSTEMS LAB</text><line x1="662" y1="78" x2="778" y2="78" stroke="url(#cyan)" stroke-width="5"/><text x="2" y="174" fill="#94a5b8" font-family="IBM Plex Mono,ui-monospace,monospace" font-size="24" letter-spacing="4">ENGINEERING / DIAGNOSTICS / AUTOMATION</text></g>
 </svg>
